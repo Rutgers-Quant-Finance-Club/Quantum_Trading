@@ -55,9 +55,9 @@ SHORT = U(np.pi, 0)            # D = [[0,1],[-1,0]]
 Q_LONG = U(0, np.pi / 2)       # quantum Long = [[i,0],[0,-i]]
 
 STRATEGIES = {
-    "L": LONG,
-    "S": SHORT,
-    "Q": Q_LONG
+    "L": LONG, # do nothing
+    "S": SHORT, # flip state
+    "Q": Q_LONG # phase shift
 }
 
 # ============================================================
@@ -66,6 +66,7 @@ STRATEGIES = {
 #       J = exp(-i*pi/4 * (D ⊗ D))
 #    where D = SHORT
 # ============================================================
+
 
 D = SHORT
 I4 = np.eye(4, dtype=complex)
