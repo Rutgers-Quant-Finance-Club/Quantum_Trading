@@ -1,2 +1,6 @@
 This project aims to build a codebase that simulates quantum-refereed trading games using IBM's Qiskit library. By modeling competitive trading interactions, specifically the Prisoner's Dilemma and Chicken, as quantum circuits, we seek to demonstrate how quantum entanglement can unlock superior Nash equilibria that are inaccessible to classical traders. This "quantum alpha" represents excess returns achievable only through quantum strategies. 
 In classical game theory, rational traders in a Prisoner's Dilemma structure converge on a suboptimal Nash equilibrium — both going Short and earning minimal payoff. Classical referees and mixed strategies cannot break this deadlock. By introducing a quantum referee modeled via the EWL (Eisert-Wilkens-Lewenstein) protocol, traders operating with quantum strategies can coordinate through entanglement to reach equilibria with significantly higher payoffs — a concrete, simulable instance of quantum advantage in finance.
+
+
+# Next Possible Steps
+Apply continous strategies not limited to just L, S, Q and see how entanglement provides better/more stable payoffs
