@@ -55,7 +55,7 @@ def plot_landscape(scenario_name):
                     edgecolors='white', linewidths=1.5, zorder=5)
 
     # Removed the [X-axis: 0 to Pi] label from the title
-    plt.title(f"Market Landscape: {scenario_name}", fontsize=14, fontweight='bold')
+    plt.title(f"Market Landscape: {scenario_name} (v2)", fontsize=14, fontweight='bold')
     plt.xlabel("Phi (Phase Angle)", fontsize=12)
     plt.ylabel("Theta (Rotation Angle)", fontsize=12)
     plt.legend()
